@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/pluginAppObj_5_30/custom.css" media="screen, print" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/contacts.css?2021-2-5-0-637599574413756527" media="screen,print" />
+		<link rel="stylesheet" href="pcss/contacts.css?2021-2-5-0-637599577025113364" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="appsresources/googleMapsPA.js"></script>
@@ -33,7 +33,7 @@
 			x5engine.utils.currentPagePath = 'contacts.html';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637599574413444098" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637599577024963754" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -186,12 +186,13 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						<input type="text" class="mandatory " id="imObjectForm_47_1" name="imObjectForm_47_1" placeholder="Your Name*" /></div>
 						</div>
 									<div id="imObjectForm_47_2_container" class="imObjectFormFieldContainer"><div id="imObjectForm_47_2_field">
-						<input type="email" class="mandatory valEmail" id="imObjectForm_47_2" name="imObjectForm_47_2" placeholder="Your E-mail*" /></div>
-						<div id="imObjectForm_47_2_chkfield">
-						<input type="email" class="mandatory valEmail equalTo[imObjectForm_47_2]" id="imObjectForm_47_2_chk" name="imObjectForm_47_2_chk" placeholder="Repeat Your E-mail*" /></div>
+						<input type="email" class="valEmail" id="imObjectForm_47_2" name="imObjectForm_47_2" placeholder="Your E-mail" /></div>
 						</div>
 									<div id="imObjectForm_47_3_container" class="imObjectFormFieldContainer"><div id="imObjectForm_47_3_field">
-						<textarea class="mandatory " id="imObjectForm_47_3" name="imObjectForm_47_3"  placeholder="Message*"></textarea></div>
+						<input type="tel" class="mandatory valTelephone" id="imObjectForm_47_3" name="imObjectForm_47_3" placeholder="Your Phone*" /></div>
+						</div>
+									<div id="imObjectForm_47_4_container" class="imObjectFormFieldContainer"><div id="imObjectForm_47_4_field">
+						<textarea class="mandatory " id="imObjectForm_47_4" name="imObjectForm_47_4"  placeholder="Message*"></textarea></div>
 						</div>
 									</div>
 								</fieldset>
