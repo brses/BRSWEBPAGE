@@ -23,16 +23,17 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637599547253113178" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637599661932978570" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Your browser does not support the features necessary to display this website.','Your browser may not support the features necessary to display this website.','[1]Update your browser[/1] or [2]continue without updating[/2].','http://outdatedbrowser.com/'); };
 			x5engine.utils.currentPagePath = 'imsearch.php';
+			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('Bidhan Pokhrel'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637599547252800732" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637599661932804014" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -96,14 +97,21 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
                 <script>
                     socialicons_imHeader_pluginAppObj_03();
                 </script>
-        </div></div><div id="imHeader_imObjectImage_04_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectImage_04"><div id="imHeader_imObjectImage_04_container"><img src="images/Untitled-1.png" title="" alt="" />
-
+        </div></div><div id="imHeader_imObjectImage_04_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectImage_04"><div id="imHeader_imObjectImage_04_container">BRS Logo</div></div>
 <script>
 	x5engine.boot.push(function () {
-		 x5engine.imagefx.pulse('#imHeader_imObjectImage_04_container img', '#imHeader_imObjectImage_04', 0.25, false);
+		$('#imHeader_imObjectImage_04').addClass('imlazyloading').trigger('imLazyLoadingStart');
+		new x5engine.mediaObject({
+			'url': '211206165160216183098150197168155167216208197095102141229220202',
+			'protect': true,
+			'load': function ( o ) {
+				$('#imHeader_imObjectImage_04_container').html( $(o.DOMObject()).css({ 'position': 'relative', 'left': 0, 'top': 0 }) );
+				$('#imHeader_imObjectImage_04').trigger('imLazyLoadingEnd');
+			}
+		});
 	});
 </script>
-</div></div></div></div>
+</div></div>
 					</header>
 					<div id="imStickyBarContainer">
 						<div id="imStickyBarGraphics"></div>
@@ -177,7 +185,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						
 					</main>
 					<footer id="imFooter">
-						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >©2021 by B.R.S. Engineering Service.</span></div></div><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
+						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >©2021 by B.R.S. Engineering Service</span></div></div><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_02_tab0" style="opacity: 1; ">
 		<div class="text-inner">
 			<div class="imTACenter"><div><span class="fs10lh1-5">Contact Us:</span></div><div><span class="fs10lh1-5">Head Office: Pokhara-30, Khudi, Kaski</span><br></div><div><span class="fs10lh1-5">Phone: 9846940514<br></span></div><div><span class="fs10lh1-5">Branch Office: Pokhara-25, Hemja, Kaski</span></div><div><span class="fs10lh1-5">Phone: 9815148304</span></div><div><div><span class="fs10lh1-5">Email us: Support@brses.com.np</span></div></div></div>
