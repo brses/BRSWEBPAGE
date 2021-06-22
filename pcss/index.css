@@ -1001,7 +1001,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	margin-top: 0px;
 	margin-bottom: 0px;
 	 }
-	#imHeader_pluginAppObj_03_wrapper { position: absolute; top: 39px; left: 1050px; width: 92px; height: 72px; text-align: center; z-index: 1004;  }
+	#imHeader_pluginAppObj_03_wrapper { position: absolute; top: 39px; left: 1050px; width: 92px; height: 72px; text-align: center; z-index: 1004; overflow: hidden; }
 	#imHeader_imCell_3 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
 	#imHeader_imCell_3 { -ms-grid-rows: 100%; grid-template-rows: 100%; }
 	#imHeader_pluginAppObj_03 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
@@ -1109,7 +1109,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	margin-top: 0px;
 	margin-bottom: 0px;
 	 }
-	#imHeader_pluginAppObj_03_wrapper { position: absolute; top: 40px; left: 670px; width: 100px; height: 70px; text-align: center; z-index: 1004;  }
+	#imHeader_pluginAppObj_03_wrapper { position: absolute; top: 40px; left: 670px; width: 100px; height: 70px; text-align: center; z-index: 1004; overflow: hidden; }
 	#imHeader_imCell_3 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
 	#imHeader_imCell_3 { -ms-grid-rows: 100%; grid-template-rows: 100%; }
 	#imHeader_pluginAppObj_03 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
@@ -1217,7 +1217,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	margin-top: 0px;
 	margin-bottom: 0px;
 	 }
-	#imHeader_pluginAppObj_03_wrapper { position: absolute; top: 40px; left: 670px; width: 100px; height: 70px; text-align: center; z-index: 1004;  }
+	#imHeader_pluginAppObj_03_wrapper { position: absolute; top: 40px; left: 670px; width: 100px; height: 70px; text-align: center; z-index: 1004; overflow: hidden; }
 	#imHeader_imCell_3 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
 	#imHeader_imCell_3 { -ms-grid-rows: 100%; grid-template-rows: 100%; }
 	#imHeader_pluginAppObj_03 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
