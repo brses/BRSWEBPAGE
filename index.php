@@ -10,10 +10,10 @@
 		<meta name="description" content="B.R.S. Engineering Service is a privite company. The company was established in 2021 AD. The proprietor,Founder and the CEO of the company is Bidhan Pokhrel. The company COO is Manoj Tripathi and CFO is Rajani Koirala Pokhrel. A group of highly qualified manpower (Civil Engineers, Environmentalist, Surveyours, IT Engineers and others) run this company. This company mainly provides the Engineering and IT related works. The head office of this company is located in Pokhara-30,khudi and the baranch office is at Pokhare-25, hemja." />
 		<meta property="og:locale" content="en" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://github.com/brses/BRSWEBPAGE.git/index.php" />
+		<meta property="og:url" content="https://brses.com.np/index.php" />
 		<meta property="og:title" content="Entry page" />
 		<meta property="og:site_name" content="B.R.S. Engineering Service" />
-		<meta property="og:image" content="https://github.com/brses/BRSWEBPAGE.git/favImage.png" />
+		<meta property="og:image" content="https://brses.com.np/favImage.png" />
 		<meta property="og:image:type" content="image/png">
 		<meta property="og:image:width" content="2126">
 		<meta property="og:image:height" content="2126">
@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="style/print.css?2021-2-5-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/index.css?2021-2-5-0-637599861737568111" media="screen,print" />
+		<link rel="stylesheet" href="pcss/index.css?2021-2-5-0-637600347152490251" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script><script>x5engine.settings.autoHeight.enabled = false;</script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
@@ -32,7 +32,7 @@
 			x5engine.utils.currentPagePath = 'index.php';
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('Bidhan Pokhrel'); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637599861737416447" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637600347152350651" type="image/png" />
 		<meta http-equiv="refresh" content="4; url=home.html">
 	</head>
 	<body>

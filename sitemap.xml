@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 	<url>
-		<loc>https://github.com/brses/BRSWEBPAGE.git/home.html</loc>
-		<lastmod>2021-06-22</lastmod>
+		<loc>https://brses.com.np/home.html</loc>
+		<lastmod>2021-06-23</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://github.com/brses/BRSWEBPAGE.git/about-us.html</loc>
-		<lastmod>2021-06-22</lastmod>
+		<loc>https://brses.com.np/about-us.html</loc>
+		<lastmod>2021-06-23</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://github.com/brses/BRSWEBPAGE.git/our-works.html</loc>
-		<lastmod>2021-06-22</lastmod>
+		<loc>https://brses.com.np/our-works.html</loc>
+		<lastmod>2021-06-23</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://github.com/brses/BRSWEBPAGE.git/contacts.html</loc>
-		<lastmod>2021-06-22</lastmod>
+		<loc>https://brses.com.np/contacts.html</loc>
+		<lastmod>2021-06-23</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://github.com/brses/BRSWEBPAGE.git/index.php</loc>
-		<lastmod>2021-06-22</lastmod>
+		<loc>https://brses.com.np/index.php</loc>
+		<lastmod>2021-06-23</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

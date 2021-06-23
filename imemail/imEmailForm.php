@@ -8,12 +8,12 @@ if(substr(basename($_SERVER['PHP_SELF']), 0, 11) == "imEmailForm") {
 	$form->setField('Message', @$_POST['imObjectForm_47_4'], '', false);
 
 	if(@$_POST['action'] != 'check_answer') {
-		if(!isset($_POST['imJsCheck']) || $_POST['imJsCheck'] != '3ADC14875A0AFBAAC46BFAFBEDA866C6' || (isset($_POST['imSpProt']) && $_POST['imSpProt'] != ""))
+		if(!isset($_POST['imJsCheck']) || $_POST['imJsCheck'] != '5523EF3EE7C43E64F38768A450253D33' || (isset($_POST['imSpProt']) && $_POST['imSpProt'] != ""))
 			die(imPrintJsError());
 		$db = getDbData('i13lbmn1');
 		if (!$db)
 			die("Cannot find db");
-		$db = ImDb::from_db_data($db);		if (!$form->saveToDb($db, 'Messages_from_webpage'))
+		$db = ImDb::from_db_data($db);		if (!$form->saveToDb($db, 'Webpage_messages'))
 			die("Unable to connect to db");
 		$form->mailToOwner('support@brses.com.np', 'support@brses.com.np', 'Notification from ' . $imSettings['general']['url'] . '', '', true);
 		@header('Location: ../home.html');

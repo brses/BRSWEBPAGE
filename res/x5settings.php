@@ -7,10 +7,10 @@
 */
 
 $imSettings['general'] = array(
-	'site_id' => 'F877A241A7CAA0C8B76C1C559AA62B9C',
-	'url' => 'https://github.com/brses/BRSWEBPAGE.git/',
-	'homepage_url' => 'https://github.com/brses/BRSWEBPAGE.git/home.html',
-	'icon' => 'https://github.com/brses/BRSWEBPAGE.git/favImage.png',
+	'site_id' => '1C0279378894A5033768886E77B6A3A9',
+	'url' => 'https://brses.com.np/',
+	'homepage_url' => 'https://brses.com.np/home.html',
+	'icon' => 'https://brses.com.np/favImage.png',
 	'version' => '2021.2.5.0',
 	'sitename' => 'B.R.S. Engineering Service',
 	'lang_code' => 'en-GB',
@@ -37,8 +37,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"btrztp7y-imCpt\">Check word:</label><br />
-			<input type=\"text\" id=\"btrztp7y-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"j69g73nt-imCpt\">Check word:</label><br />
+			<input type=\"text\" id=\"j69g73nt-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 
@@ -78,7 +78,7 @@ $couponData['products'] = array();
 $ecommerce->setPublicFolder('');
 $ecommerce->setCouponData($couponData);
 $ecommerce->setSettings(array(
-	'page_url' => 'https://github.com/brses/BRSWEBPAGE.git/',
+	'page_url' => 'https://brses.com.np/',
 	'force_sender' => false,
 	'mail_btn_css' => 'display: inline-block; text-decoration: none; color: rgba(64, 64, 64, 1); background-color: rgba(229, 79, 43, 1); padding: 15px 33px 15px 33px; border-style: solid; border-width: 0px 0px 0px 0px; border-color: rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;',
 	'email_opening' => 'Dear Customer,<br /><br />Thank you for your order. We remind you that we are waiting for your payment.<br /><br />Below you will find the list of the products you have ordered, the billing and shipping details and the instructions to complete the payment.',
