@@ -9,7 +9,7 @@
 $imSettings['general'] = array(
 	'site_id' => '1C0279378894A5033768886E77B6A3A9',
 	'url' => 'https://brses.com.np/',
-	'homepage_url' => 'https://brses.com.np/home.html',
+	'homepage_url' => 'https://brses.com.np/index.html',
 	'icon' => 'https://brses.com.np/favImage.png',
 	'version' => '2021.2.5.0',
 	'sitename' => 'B.R.S. Engineering Service',
@@ -37,8 +37,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"5ufu9gyo-imCpt\">Check word:</label><br />
-			<input type=\"text\" id=\"5ufu9gyo-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"nmm0uq9c-imCpt\">Check word:</label><br />
+			<input type=\"text\" id=\"nmm0uq9c-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 

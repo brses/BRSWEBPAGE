@@ -5,7 +5,7 @@
 		<title>Search - B.R.S. Engineering Service</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
-		<meta name="author" content="Bidhan Pokhrel" />
+		<meta name="author" content="B.R.S. Engineering Service" />
 		<meta name="generator" content="Incomedia WebSite X5 Pro 2021.2.5 - www.websitex5.com" />
 		<meta property="og:locale" content="en" />
 		<meta property="og:type" content="website" />
@@ -23,17 +23,17 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637600378351550703" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637600404248927124" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Your browser does not support the features necessary to display this website.','Your browser may not support the features necessary to display this website.','[1]Update your browser[/1] or [2]continue without updating[/2].','http://outdatedbrowser.com/'); };
 			x5engine.utils.currentPagePath = 'imsearch.php';
-			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('Bidhan Pokhrel'); });
+			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('B.R.S. Engineering Service'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637600378351550703" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637600404248770843" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
