@@ -37,8 +37,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"j69g73nt-imCpt\">Check word:</label><br />
-			<input type=\"text\" id=\"j69g73nt-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"5ufu9gyo-imCpt\">Check word:</label><br />
+			<input type=\"text\" id=\"5ufu9gyo-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 
@@ -60,16 +60,7 @@ $imSettings['admin'] = array(
 |--------------------------------------------------------------------------------------
 */
 
-$imSettings['databases'] = array(
-	'i13lbmn1' => array(
-		'description' => 'B.R.S. Engineering Service',
-		'host' => 'sql11.freemysqlhosting.net',
-		'database' => 'sql11420888',
-		'user' => 'sql11420888',
-		'password' => ' hUi3MPi5yM',
-		'table_prefix' => ''
-	)
-);
+$imSettings['databases'] = array();
 $ecommerce = Configuration::getCart();
 // Setup the coupon data
 $couponData = array();
