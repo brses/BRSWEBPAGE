@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637600347152340667" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637600350532449924" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
@@ -33,7 +33,7 @@
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('Bidhan Pokhrel'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637600347152240939" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637600350532449924" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
