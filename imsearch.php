@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637599661932978570" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637599861737553111" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
@@ -33,7 +33,7 @@
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('Bidhan Pokhrel'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637599661932804014" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637599861737416447" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -49,10 +49,10 @@
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden">
-	<li class="imMnMnFirst imPage" data-link-paths=",/brses/BRSWEBPAGE.git/index.html,/brses/BRSWEBPAGE.git/">
+	<li class="imMnMnFirst imPage" data-link-paths=",/brses/BRSWEBPAGE.git/home.html,/brses/BRSWEBPAGE.git/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="index.html">
+		<a class="label" href="home.html">
 Home Page		</a>
 </div>
 </div>
@@ -87,7 +87,7 @@ x5engine.boot.push(function(){x5engine.initMenu(imHeader_imMenuObject_01_setting
 $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0;    $this.on('mouseenter', function () {        if($(this).parents('#imHeader_imMenuObject_01_container-menu-opened').length > 0) return;         clearTimeout(timeout);        setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeIn(); }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imHeader_imMenuObject_01_container-menu-opened').length > 0) return;         timeout = setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeOut(); }, 250);    });});});
 
 </script>
-</div><div id="imHeader_imObjectTitle_02_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectTitle_02"><span id ="imHeader_imObjectTitle_02_text" ><a href="index.html" onclick="return x5engine.utils.location('index.html', null, false)">B.R.S. Engineering Service</a></span></div></div><div id="imHeader_pluginAppObj_03_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imHeader_pluginAppObj_03">
+</div><div id="imHeader_imObjectTitle_02_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectTitle_02"><span id ="imHeader_imObjectTitle_02_text" ><a href="home.html" onclick="return x5engine.utils.location('home.html', null, false)">B.R.S. Engineering Service</a></span></div></div><div id="imHeader_pluginAppObj_03_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imHeader_pluginAppObj_03">
             <div id="soc_imHeader_pluginAppObj_03">
                 <div class="wrapper horizontal flat none">
                 	<div class='social-icon flat'><a href='https://www.facebook.com/B.R.S.EngineeringService' target='_blank'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div>
@@ -122,10 +122,10 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden">
-	<li class="imMnMnFirst imPage" data-link-paths=",/brses/BRSWEBPAGE.git/index.html,/brses/BRSWEBPAGE.git/">
+	<li class="imMnMnFirst imPage" data-link-paths=",/brses/BRSWEBPAGE.git/home.html,/brses/BRSWEBPAGE.git/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="index.html">
+		<a class="label" href="home.html">
 Home Page		</a>
 </div>
 </div>
