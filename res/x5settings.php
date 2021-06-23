@@ -9,7 +9,7 @@
 $imSettings['general'] = array(
 	'site_id' => 'F877A241A7CAA0C8B76C1C559AA62B9C',
 	'url' => 'https://github.com/brses/BRSWEBPAGE.git/',
-	'homepage_url' => 'https://github.com/brses/BRSWEBPAGE.git/index.html',
+	'homepage_url' => 'https://github.com/brses/BRSWEBPAGE.git/home.html',
 	'icon' => 'https://github.com/brses/BRSWEBPAGE.git/favImage.png',
 	'version' => '2021.2.5.0',
 	'sitename' => 'B.R.S. Engineering Service',
@@ -37,8 +37,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"6fmarkbe-imCpt\">Check word:</label><br />
-			<input type=\"text\" id=\"6fmarkbe-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"btrztp7y-imCpt\">Check word:</label><br />
+			<input type=\"text\" id=\"btrztp7y-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 
@@ -60,7 +60,16 @@ $imSettings['admin'] = array(
 |--------------------------------------------------------------------------------------
 */
 
-$imSettings['databases'] = array();
+$imSettings['databases'] = array(
+	'i13lbmn1' => array(
+		'description' => 'B.R.S. Engineering Service',
+		'host' => 'sql11.freemysqlhosting.net',
+		'database' => 'sql11420888',
+		'user' => 'sql11420888',
+		'password' => ' hUi3MPi5yM',
+		'table_prefix' => ''
+	)
+);
 $ecommerce = Configuration::getCart();
 // Setup the coupon data
 $couponData = array();

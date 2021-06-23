@@ -10,8 +10,13 @@ if(substr(basename($_SERVER['PHP_SELF']), 0, 11) == "imEmailForm") {
 	if(@$_POST['action'] != 'check_answer') {
 		if(!isset($_POST['imJsCheck']) || $_POST['imJsCheck'] != '3ADC14875A0AFBAAC46BFAFBEDA866C6' || (isset($_POST['imSpProt']) && $_POST['imSpProt'] != ""))
 			die(imPrintJsError());
-		$form->mailToOwner('Support@brses.com.np', 'Support@brses.com.np', 'From Webpage', '', true);
-		@header('Location: ../index.html');
+		$db = getDbData('i13lbmn1');
+		if (!$db)
+			die("Cannot find db");
+		$db = ImDb::from_db_data($db);		if (!$form->saveToDb($db, 'Messages_from_webpage'))
+			die("Unable to connect to db");
+		$form->mailToOwner('support@brses.com.np', 'support@brses.com.np', 'Notification from ' . $imSettings['general']['url'] . '', '', true);
+		@header('Location: ../home.html');
 		exit();
 	} else {
 		echo $form->checkAnswer(@$_POST['id'], @$_POST['answer']) ? 1 : 0;
