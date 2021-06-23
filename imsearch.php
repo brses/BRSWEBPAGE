@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637600404248927124" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637600625027935969" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
@@ -33,7 +33,7 @@
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('B.R.S. Engineering Service'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637600404248770843" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637600625027846937" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -111,7 +111,9 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
 		});
 	});
 </script>
-</div></div>
+</div><div id="imHeader_imHTMLObject_05_wrapper" class="template-object-wrapper"><div id="imHeader_imHTMLObject_05" class="imHTMLObject" style="text-align: center; width: 100%; overflow: hidden;"><!--Add the following script at the bottom of the web page (before </body></html>)-->
+<script type="text/javascript">function add_chatinline(){var hccid=47849362;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline();</script></div></div></div>
 					</header>
 					<div id="imStickyBarContainer">
 						<div id="imStickyBarGraphics"></div>
@@ -196,7 +198,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 </div><div id="imFooter_imTextObject_03_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_03">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_03_tab0" style="opacity: 1; ">
 		<div class="text-inner">
-			<div class="imTACenter"><div><span class="fs10lh1-5">Contact Us:</span></div><div><span class="fs10lh1-5">Branch Office: Pokhara-25, Hemja, Kaski</span><br></div><div><span class="fs10lh1-5">Phone: 9815148304</span></div><div><br></div></div>
+			<div class="imTACenter"><div><span class="fs10lh1-5">Contact Us:</span></div><div><span class="fs10lh1-5">Branch Office: Pokhara-25, <a href="https://www.mylivechat.com/webconsole/" onclick="return x5engine.imShowBox({ media:[{type: 'iframe', url: 'https://www.mylivechat.com/webconsole/', width: 1920, height: 1080, description: ''}]}, 0, this);" class="imCssLink">Hemja</a>, Kaski</span><br></div><div><span class="fs10lh1-5">Phone: 9815148304</span></div><div><br></div></div>
 		</div>
 	</div>
 
