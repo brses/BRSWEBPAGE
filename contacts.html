@@ -23,11 +23,16 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/pluginAppObj_5_30/custom.css" media="screen, print" />
+		<link rel="stylesheet" href="appsresources/styleOpenWeatherMapIcons.css" media="screen, print" />
+		<link rel="stylesheet" href="pluginAppObj/pluginAppObj_5_52/custom.css" media="screen, print" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/contacts.css?2021-2-5-0-637602442846132518" media="screen,print" />
+		<link rel="stylesheet" href="pcss/contacts.css?2021-2-5-0-637602490063627474" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="appsresources/googleMapsPA.js"></script>
+		<script src="appsresources/openWeatherMapIcons.js"></script>
+		<script src="appsresources/libOpenWeatherMap.js"></script>
+		<script src="pluginAppObj/pluginAppObj_5_52/main.js"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Your browser does not support the features necessary to display this website.','Your browser may not support the features necessary to display this website.','[1]Update your browser[/1] or [2]continue without updating[/2].','http://outdatedbrowser.com/'); };
@@ -35,7 +40,7 @@
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('B.R.S. Engineering Service'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637602442845979338" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637602490063002482" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -222,14 +227,24 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						})();
 						</script>
 						
-						        </div></div><div id="imCell_51" class=""  data-responsive-sequence-number="3"> <div id="imCellStyleGraphics_51"></div><div id="imCellStyleBorders_51"></div><div id="imHTMLObject_5_51" class="imHTMLObject" style="text-align: center; width: 100%; overflow: hidden;"><html>
+						        </div></div><div id="imCell_52" class=""  data-responsive-sequence-number="3"> <div id="imCellStyleGraphics_52"></div><div id="imCellStyleBorders_52"></div><!-- OpenWeatherMap v.11 --><div id="pluginAppObj_5_52">
+						            <div id="weather_pluginAppObj_5_52" class="weather">
+						            </div>
+						            <script>
+						                var key = "7eed174ff3555b534c12d78c13a6e12e";
+						                weather_pluginAppObj_5_52(key);
+						            </script>
+						       </div></div><div id="imPageRow_2" class="imPageRow">
+						
+						</div>
+						<div id="imCell_51" class=""  data-responsive-sequence-number="4"> <div id="imCellStyleGraphics_51"></div><div id="imCellStyleBorders_51"></div><div id="imHTMLObject_5_51" class="imHTMLObject" style="text-align: center; width: 100%; overflow: hidden;"><html>
 						    
 						    <head>
 						        
 						        
 						        <body>
 						            
-						            <!-- Messenger Chat Plugin Code -->
+						          <!-- Messenger Chat Plugin Code -->
 						    <div id="fb-root"></div>
 						
 						    <!-- Your Chat Plugin code -->
@@ -256,13 +271,9 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						      }(document, 'script', 'facebook-jssdk'));
 						    </script>
 						            
-						            
 						        </body>
 						    </head>
-						</html></div></div><div id="imPageRow_2" class="imPageRow">
-						
-						</div>
-						
+						</html></div></div>
 					</main>
 					<footer id="imFooter">
 						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >©2021 by B.R.S. Engineering Service</span></div></div><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
