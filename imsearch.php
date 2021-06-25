@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637602438066099426" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637602529282191634" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
@@ -33,7 +33,7 @@
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('B.R.S. Engineering Service'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637602438065998422" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637602529282034963" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -109,7 +109,7 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
 	x5engine.boot.push(function () {
 		$('#imHeader_imObjectImage_06').addClass('imlazyloading').trigger('imLazyLoadingStart');
 		new x5engine.mediaObject({
-			'url': '211206165160216183098119144097158162211218192106109150227221216239163152163220160',
+			'url': '211206165160216183098119144097158162211218192168101146239162154235103152163220160',
 			'protect': true,
 			'load': function ( o ) {
 				$('#imHeader_imObjectImage_06_container').html( $(o.DOMObject()).css({ 'position': 'relative', 'left': 0, 'top': 0 }) );
@@ -118,7 +118,43 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
 		});
 	});
 </script>
-</div></div>
+</div><div id="imHeader_imHTMLObject_07_wrapper" class="template-object-wrapper"><div id="imHeader_imHTMLObject_07" class="imHTMLObject" style="text-align: center; width: 100%; overflow: hidden;"><html>
+    
+    <head>
+        
+        
+        <body>
+            
+          <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100914241622996");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+            
+        </body>
+    </head>
+</html></div></div></div>
 					</header>
 					<div id="imStickyBarContainer">
 						<div id="imStickyBarGraphics"></div>
