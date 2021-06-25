@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637601256805565766" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637602438066099426" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
@@ -33,7 +33,7 @@
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('B.R.S. Engineering Service'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637601256805510584" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637602438065998422" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -70,6 +70,13 @@ About us		</a>
 Our Works		</a>
 </div>
 </div>
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/utilities.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="utilities.html">
+Utilities		</a>
+</div>
+</div>
 	</li><li class="imMnMnLast imPage" data-link-paths=",/contacts.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
@@ -97,14 +104,12 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
                 <script>
                     socialicons_imHeader_pluginAppObj_03();
                 </script>
-        </div></div><div id="imHeader_imHTMLObject_05_wrapper" class="template-object-wrapper"><div id="imHeader_imHTMLObject_05" class="imHTMLObject" style="text-align: center; width: 100%; overflow: hidden;"><!--Add the following script at the bottom of the web page (before </body></html>)-->
-<script type="text/javascript">function add_chatinline(){var hccid=47849362;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
-add_chatinline();</script></div></div><div id="imHeader_imObjectImage_06_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectImage_06"><div id="imHeader_imObjectImage_06_container">BRS Logo</div></div>
+        </div></div><div id="imHeader_imObjectImage_06_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectImage_06"><div id="imHeader_imObjectImage_06_container">BRS Logo</div></div>
 <script>
 	x5engine.boot.push(function () {
 		$('#imHeader_imObjectImage_06').addClass('imlazyloading').trigger('imLazyLoadingStart');
 		new x5engine.mediaObject({
-			'url': '211206165160216183098119144097158162211218192162173194223217149179152152163220160',
+			'url': '211206165160216183098119144097158162211218192106109150227221216239163152163220160',
 			'protect': true,
 			'load': function ( o ) {
 				$('#imHeader_imObjectImage_06_container').html( $(o.DOMObject()).css({ 'position': 'relative', 'left': 0, 'top': 0 }) );
@@ -143,6 +148,13 @@ About us		</a>
 <div class="label-inner-wrapper">
 		<a class="label" href="our-works.html">
 Our Works		</a>
+</div>
+</div>
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/utilities.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="utilities.html">
+Utilities		</a>
 </div>
 </div>
 	</li><li class="imMnMnLast imPage" data-link-paths=",/contacts.html">
