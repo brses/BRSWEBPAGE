@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/utilities.css?2021-2-5-0-637603307777362858" media="screen,print" />
+		<link rel="stylesheet" href="pcss/utilities.css?2021-2-5-0-637604049350886037" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
@@ -32,7 +32,7 @@
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('B.R.S. Engineering Service'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637603307777256329" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637604049350796015" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -609,9 +609,31 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						
 						</html>
 						</div></div><div id="imCell_5" class=""  data-responsive-sequence-number="2"> <div id="imCellStyleGraphics_5"></div><div id="imCellStyleBorders_5"></div><div id="imHTMLObject_6_05" class="imHTMLObject" style="text-align: center; width: 100%; overflow: hidden;">     
-							 
-							<Html>
-						<body>
+						<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+						<html xmlns="http://www.w3.org/1999/xhtml">
+						
+						<head>
+						    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+						   
+						    <link href="https://brses.com.np/carousel.css" rel="stylesheet" type="text/css" />
+						    <script type="text/javascript" language="javascript" src="https://brses.com.np/javascript/main.js">
+						    </script>
+						
+						    </script>
+						    <script src="https://brses.com.np/javascript/calculator.js" type="text/javascript"></script>
+						    <script src="https://brses.com.np/javascript/search.js" type="text/javascript"></script>
+						    <script type="text/javascript">
+						        var _gaq = _gaq || [];
+						       
+						        _gaq.push(['_setDomainName', '.brses.com.np']);
+						       
+						
+						        (function() {
+						          
+						            ga.type = 'text/javascript';
+						    
+						      })();
+						    </script>
 							
 							 
 							 
@@ -653,15 +675,13 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						                                                    
 						                                                </div>
 						                                            </div>
-						                                            <div class="clear-left padding-top-15 padding-left-100 padding-right-10">
-						                                                <div class="clear-both">
+						                                            
 						                                                    
 						                        <input name="button"    style="background-color:#5CB3FF; border: 2px solid green; border-radius: 10px; font-family: algerian, Helvetica, sans-serif; text-align: center;"    value="Convert To Sq. Feet"  type="button" onClick="resourceconverter('sqvalue')">
 												</a>
-						                                                    <a  class="BRS-button">
-												<input name="button"    style="background-color:#5CB3FF; border: 2px solid green; border-radius: 10px; font-family: algerian, Helvetica, sans-serif; text-align: center;"    value="Convert To Ropani" type="button" onClick="resourcebackconverter()">
-												</a>
-						                                                </div>
+						                                                   
+												<input name="button"    style="background-color:#5CB3FF; border: 2px solid green; border-radius: 10px; font-family: algerian, Helvetica, sans-serif; text-align: center; "    value="Convert To Ropani" type="button" onClick="resourcebackconverter()">
+											                  </div>
 						                                            </div>
 						                                            <div class="clear-both padding-top-5 padding-left-100">
 						                                            
@@ -675,7 +695,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						                                                
 						                                                
 						                                                    <input name="sqvalue"  style="background-color:#FFFFFF; border: 2px solid green; border-radius: 50px; font-family: algerian, Helvetica, sans-serif; text-align: center;"  id="sqvalue" value="" type="text" maxlength="100" placeholder="Sq.Ft"  size="20">
-						                                                    
+						                                                
 						                                                    
 						                                                    
 						                                                    <label id="emsg" style="color: rgb(255, 0, 0);"></label>
@@ -692,20 +712,6 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 													
 													<script>
 													
-													
-													
-						
-						
-						
-						
-						var httpObject = null;
-								//		var base_url="https://brses.com.np";
-						
-						
-						
-						
-						var base_url = "https://www.brses.com.np";
-						
 						
 						function resourceconverter(destn) {
 						    var ropani = document.getElementById('ropani').value;
@@ -726,7 +732,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						    }
 						    var source = ropani + "-" + anna + "-" + paisa + "-" + daam;
 						    params = "area=" + source;
-						    generalConverterAjax(destn, base_url + "/search/get_Squareft", params);
+						 
 						
 						}
 						
@@ -737,19 +743,11 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						    if (isNaN(sqft)) {
 						
 						    } else {
-						        generalBackConverterAjax('', base_url + "/search/get_Ropani", params);
+						        
 						    }
 						
 						}
 						
-						function generalBackConverterAjax(id, url, params) {
-						    var httpObjects = null;
-						    httpObjects = getHTTPObject();
-						    if (httpObjects != null) {
-						        httpObjects.open('POST', url, true);
-						        httpObjects.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-						        httpObjects.setRequestHeader("Content-length", params.length);
-						        httpObjects.setRequestHeader("Connection", "close");
 						        httpObjects.onreadystatechange = function() {
 						            if (httpObjects.readyState == 4) {
 						                var rapd = httpObjects.responseText;
@@ -762,7 +760,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						                document.getElementById('daam').value = temp[3];
 						            }
 						        }
-						        httpObjects.send(params);
+						        
 						    }
 						}
 						
@@ -773,16 +771,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						
 						
 						
-						
-						
-						//from search
-						
-						
-						
-						
-						
-						
-						function generalConverterAjax(id, url, _14) {
+						function generalConverterAjax() {
 						    var _15 = null;
 						    _15 = getHTTPObject();
 						    if (_15 != null) {
@@ -831,19 +820,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						    if (_16 == "SqrFt") {} else {
 						        document.getElementById("mypopup").style.display = "none";
 						    }
-						    generalConverterAjax(_16, base_url + "/search/get_Squareft", params);
-						};
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
+						    
 						
 						
 						function showdeadcenterdiv(_6, _7, _8) {
@@ -887,41 +864,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						};
 						
 						
-						
-						
-						
-						
-						
-						
-						
-							
-								
-								
-						
-						
-						
-						
-						
-								var httpObject = null;
-							
-								var base_url = "https://github.com/brses/BRSWEBPAGE/tree/main/javascript";
-						
-								function getHTTPObject() {
-								    if (window.ActiveXObject) {
-								        return new ActiveXObject("Microsoft.XMLHTTP");
-								    } else if (window.XMLHttpRequest) {
-								        return new XMLHttpRequest();
-								    } else {
-								        alert("Your browser does not support AJAX.");
-								        return null;
-								    }
-								}
-						
-						
-								
-						
-							
-													
+									
 													</script>
 													
 													
