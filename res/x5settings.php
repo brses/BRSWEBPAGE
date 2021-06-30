@@ -37,8 +37,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"3hiaihsa-imCpt\">Check word:</label><br />
-			<input type=\"text\" id=\"3hiaihsa-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"bted398d-imCpt\">Check word:</label><br />
+			<input type=\"text\" id=\"bted398d-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 
@@ -71,7 +71,7 @@ $ecommerce->setCouponData($couponData);
 $ecommerce->setSettings(array(
 	'page_url' => 'https://brses.com.np/',
 	'force_sender' => false,
-	'mail_btn_css' => 'display: inline-block; text-decoration: none; color: rgba(255, 0, 0, 1); background-color: rgba(255, 242, 204, 1); padding: 15px 33px 15px 33px; border-style: solid; border-width: 0px 0px 0px 0px; border-color: rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;',
+	'mail_btn_css' => 'display: inline-block; text-decoration: none; color: rgba(255, 0, 0, 1); background-color: rgba(255, 242, 204, 1); padding: 15px 33px 15px 33px; border-style: solid; border-width: 0px 0px 0px 0px; border-color: rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1); border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;',
 	'email_opening' => 'Dear Customer,<br /><br />Thank you for your order. We remind you that we are waiting for your payment.<br /><br />Below you will find the list of the products you have ordered, the billing and shipping details and the instructions to complete the payment.',
 	'email_closing' => 'Please contact us if you need further information.<br /><br />Best Regards, our Sales Staff.',
 	'email_payment_opening' => 'Dear Customer,<br /><br />Thank you for your purchase. We confirm that we have correctly received your payment and that the order will be processed as soon as possible.<br /><br />Below you will find the list of the products you have ordered, the billing and shipping details.',
