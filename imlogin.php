@@ -1,15 +1,40 @@
-<!DOCTYPE html><!-- HTML5 -->
+<?php require_once("res/x5engine.php"); ?>
+<?php
+$pa = Configuration::getPrivateArea();
+if (isset($_GET['landing_page'])) {
+	$pa->savePage($_GET['landing_page']);
+}
+$fromCart = false;
+$pa->admin_email = '';
+if (isset($_POST['imUname']) && isset($_POST['imPwd'])) {
+	$result = $pa->login($_POST['imUname'], $_POST['imPwd']);
+	if ($result < 0) {
+		header('Location: imlogin.php?loginstatus=' . $result);
+		exit();
+	}
+	$page = $pa->getSavedPage() ? $pa->getSavedPage() : $pa->getLandingPage();
+	if (!$page) {
+		if(isset($_SERVER["HTTP_REFERER"]) && strlen($_SERVER["HTTP_REFERER"]) && strpos($_SERVER["HTTP_REFERER"], 'imlogin.php') === false) {
+			$page = preg_replace('/\?.*/', '', $_SERVER["HTTP_REFERER"]) . '?loginstatus=1';
+		} else {
+			$page = 'imlogin.php?loginstatus=1';
+		}
+	}
+	$pa->clearSavedPage();
+	$pa->sessionSafeRedirect($page);
+}
+?><!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="en-GB" dir="ltr">
 	<head>
-		<title>Contacts - B.R.S. Engineering Service</title>
+		<title>Reserved Access - B.R.S. Engineering Service</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
 		<meta name="author" content="B.R.S. Engineering Service" />
 		<meta name="generator" content="Incomedia WebSite X5 Pro 2021.2.5 - www.websitex5.com" />
 		<meta property="og:locale" content="en" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://brses.com.np/contacts.html" />
-		<meta property="og:title" content="Contacts" />
+		<meta property="og:url" content="https://brses.com.np/imlogin.php" />
+		<meta property="og:title" content="Reserved Access" />
 		<meta property="og:site_name" content="B.R.S. Engineering Service" />
 		<meta property="og:image" content="https://brses.com.np/favImage.png" />
 		<meta property="og:image:type" content="image/png">
@@ -21,27 +46,20 @@
 		<link rel="stylesheet" href="style/print.css?2021-2-5-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
-		<link rel="stylesheet" href="pluginAppObj/pluginAppObj_5_30/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="appsresources/styleOpenWeatherMapIcons.css" media="screen, print" />
-		<link rel="stylesheet" href="pluginAppObj/pluginAppObj_5_52/custom.css" media="screen, print" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_09/custom.css" media="screen, print" />
 		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_05/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/contacts.css?2021-2-5-0-637640398664321360" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imlogin.css?2021-2-5-0-637640398662356614" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
-		<script src="appsresources/googleMapsPA.js"></script>
-		<script src="appsresources/openWeatherMapIcons.js"></script>
-		<script src="appsresources/libOpenWeatherMap.js"></script>
-		<script src="pluginAppObj/pluginAppObj_5_52/main.js"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_09/main.js"></script>
 		<script src="pluginAppObj/imFooter_pluginAppObj_05/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Your browser does not support the features necessary to display this website.','Your browser may not support the features necessary to display this website.','[1]Update your browser[/1] or [2]continue without updating[/2].','http://outdatedbrowser.com/'); };
-			x5engine.utils.currentPagePath = 'contacts.html';
+			x5engine.utils.currentPagePath = 'imlogin.php';
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('B.R.S. Engineering Service'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637640398663882528" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637640398662226947" type="image/png" />
 		<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'G-RDS8WE8GHM','auto');ga('send', 'pageview');</script>
 	</head>
 	<body>
@@ -51,7 +69,7 @@
 				<div id="imFooterBg"></div>
 				<div id="imPage">
 					<header id="imHeader">
-						<h1 class="imHidden">Contacts - B.R.S. Engineering Service</h1>
+						<h1 class="imHidden">Reserved Access - B.R.S. Engineering Service</h1>
 						<div id="imHeaderObjects"><div id="imHeader_imMenuObject_01_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imHeader_imMenuObject_01"><div id="imHeader_imMenuObject_01_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
 	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
 		<div class="hamburger-menu-close-button"><span>&times;</span></div>
@@ -247,50 +265,47 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 					<div id="imContentGraphics"></div>
 					<main id="imContent">
 						<a id="imGoToCont"></a>
-						<div id="imPageRow_1" class="imPageRow">
-						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_1"></div></div>
-						</div>
-						<div id="imCell_50" class=""  data-responsive-sequence-number="1"> <div id="imCellStyleGraphics_50"></div><div id="imCellStyleBorders_50"></div><div id="imHTMLObject_5_50" class="imHTMLObject" style="text-align: center; height: 750px; width: 90%; overflow: hidden;"><div id="zf_div_rFaZ4HLgghoxXRR78xRBCA2RJRLBLJdtCAiFpPX2vn8"></div><script type="text/javascript">(function() {
-						try{
-						var f = document.createElement("iframe");   
-						f.src = 'https://forms.zohopublic.com/brses/form/ContactForm/formperma/rFaZ4HLgghoxXRR78xRBCA2RJRLBLJdtCAiFpPX2vn8?zf_rszfm=1';
-						f.style.border="none";                                           
-						f.style.height="702px";
-						f.style.width="90%";
-						f.style.transition="all 0.5s ease";// No I18N
-						var d = document.getElementById("zf_div_rFaZ4HLgghoxXRR78xRBCA2RJRLBLJdtCAiFpPX2vn8");
-						d.appendChild(f);
-						window.addEventListener('message', function (){
-						var zf_ifrm_data = event.data.split("|");
-						var zf_perma = zf_ifrm_data[0];
-						var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
-						var iframe = document.getElementById("zf_div_rFaZ4HLgghoxXRR78xRBCA2RJRLBLJdtCAiFpPX2vn8").getElementsByTagName("iframe")[0];
-						if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
-						var prevIframeHeight = iframe.style.height;
-						if ( prevIframeHeight != zf_ifrm_ht_nw ) {
-						iframe.style.height = zf_ifrm_ht_nw;
-						}   
-						}
-						}, false);
-						}catch(e){}
-						})();</script></div></div><div id="imCell_30" class=""  data-responsive-sequence-number="2"> <div id="imCellStyleGraphics_30"></div><div id="imCellStyleBorders_30"></div><!-- Google Maps v.16 --><div id="pluginAppObj_5_30">
-						          
-						<script>
-						(function(){
-							var gm = paGoogleMaps('pluginAppObj_5_30', false);
-							_jq(document).ready(function(){gm.createIFrame('https://www.google.com/maps/embed/v1/place?key=AIzaSyBpiGf-qNlzyMrRhEbxO8mZG5QvHYHvd2c&q=BRS+Engineering+Service&zoom=13&maptype=roadmap')});
-						})();
-						</script>
-						
-						        </div></div><div id="imCell_52" class=""  data-responsive-sequence-number="3"> <div id="imCellStyleGraphics_52"></div><div id="imCellStyleBorders_52"></div><!-- OpenWeatherMap v.11 --><div id="pluginAppObj_5_52">
-						            <div id="weather_pluginAppObj_5_52" class="weather">
-						            </div>
-						            <script>
-						                var key = "7eed174ff3555b534c12d78c13a6e12e";
-						                weather_pluginAppObj_5_52(key);
-						            </script>
-						       </div></div><div id="imPageRow_2" class="imPageRow">
-						
+						<div id="imLoginPage">
+						<?php if ($fromCart): ?>
+							<h2 id ="imPgTitle" class="imTitleMargin">Step 1 - Customer data</h2>
+							<script>x5engine.boot.push(function () {
+							if (x5engine.cart.ui.steps.active) {
+								$('#imPgTitle').before(x5engine.cart.ui.getStepStyleDom(0));
+							}
+							});</script>
+						<?php elseif (isset($_GET['cngpwd']) && isset($_GET['cngpwdml'])): ?>
+							<h2 id="imPgTitle" class="imTitleMargin">Password Reset</h2>
+							<div style="height: 15px;">&nbsp;</div>
+						<?php else: ?>
+							<h2 id="imPgTitle" class="imTitleMargin">Reserved Access</h2>
+							<div style="height: 15px;">&nbsp;</div>
+						<?php endif; ?>
+							<?php if (isset($_GET['loginstatus']) && $_GET['loginstatus'] == 1): ?>
+							<div class="alert alert-green"><?php echo $pa->messageFromStatusCode(1) ?></div>
+							<?php else: ?>
+										<div id="imLoginDescription"><?php echo isset($_GET['cart']) ? Configuration::getLocalizations()->get('cart_step2_descr_login', 'To set the order you are required to login or register.' ) : (isset($_GET['cngpwd']) && isset($_GET['cngpwdml']) ? Configuration::getLocalizations()->get('private_area_password_recovery_description', 'Enter new password below.' ) : 'To access this WebSite section you have to enter your login details.'); ?></div>
+										<div class="imLogin">
+											<?php
+												if (isset($_GET['loginstatus']) && $pa->messageFromStatusCode($_GET['loginstatus']) != '') {
+													echo '<div class="alert alert-' . ($_GET['loginstatus'] >= 0 ? 'green' : 'red') . '">' . $pa->messageFromStatusCode($_GET['loginstatus']) . '</div>';
+												}
+											?>
+											<form method="post" action="imlogin.php" id="imLoginForm">
+												<div class="imLoginBlock">
+													<label for="imUnameLogin"><span>E-mail:</span></label><br />
+													<input type="email" name="imUname" id="imUnameLogin" class="mandatory" autofocus><br />
+												</div>
+												<div class="imLoginBlock">
+													<label for="imPwdLogin"><span>Password:</span></label><br />
+													<input type="password" name="imPwd" id="imPwdLogin" class="mandatory"><br />
+												</div>
+												<div class="imLoginBlock" style="text-align: right;">
+													<input type="submit" value="Log in" class="imLoginSubmit">
+												</div>
+											</form>
+											<script>x5engine.boot.push(function() { x5engine.imForm.initForm('#imLoginForm', false, { 'jsid': '0BC9034661D4C1C4BED8E09DBF70C4E6', showAll: true, offlineMessage: 'When you test your WebSite you will not be asked for the Username and Password, that will only happen once you have uploaded your WebSite.' }); });</script>
+										</div>
+							<?php endif; ?>
 						</div>
 						
 					</main>

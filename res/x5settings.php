@@ -26,19 +26,19 @@ $imSettings['general'] = array(
 */
 
 $imSettings['password_policy'] = array(
-	'required_policy' => false,
+	'required_policy' => true,
 	'minimum_characters' => '6',
 	'include_uppercase' => false,
 	'include_numeric' => false,
-	'include_special' => false
+	'include_special' => true
 );
 /*
 |-------------------------------
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"rt1h0wyv-imCpt\">Check word:</label><br />
-			<input type=\"text\" id=\"rt1h0wyv-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"yfmd5pd9-imCpt\">Check word:</label><br />
+			<input type=\"text\" id=\"yfmd5pd9-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 

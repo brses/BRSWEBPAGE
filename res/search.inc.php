@@ -13,6 +13,7 @@ $imSettings['search']['general'] = array(
 		'6' => 'utilities.html'
 	),
 	'extendedScope' => array(
+		'9' => 'login-forms.php'
 	)
 );
 

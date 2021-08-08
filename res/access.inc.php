@@ -7,10 +7,20 @@ $imSettings['access']['users'] = array(
 		'groups' => array('m4uwoqpp'),
 		'firstname' => 'B.R.S. Engineering',
 		'lastname' => 'Service',
-		'password' => '$2a$11$eenABUVK8ito5HxIkvR3seQLQazqiOLpIacDs.iBeLo5U7NF/qnJe',
+		'password' => '$2a$11$4uwRIypNH1rbRKxCaVm0NeLZpb0hogzBp29xzP8DpmQHlCl4n2sR2',
 		'crypt_encoding' => 'csharp_bcrypt',
 		'db_stored' => false,
 		'page' => false
+	),
+	'manoj.tripathi@brses.com.np' => array(
+		'id' => 'v3f4a1fj',
+		'groups' => array('wcsn1mxf'),
+		'firstname' => 'Manoj',
+		'lastname' => 'Tripathi',
+		'password' => '$2a$11$CEK1YiSvCAMmWfhqZ3j.5.K47ZRIsOR9zwvqMFVNEFuqRaowcP/5K',
+		'crypt_encoding' => 'csharp_bcrypt',
+		'db_stored' => false,
+		'page' => 'index.html'
 	)
 );
 
@@ -18,7 +28,9 @@ $imSettings['access']['users'] = array(
 $imSettings['access']['admins'] = array('hf1z67cl');
 
 // Page/Users permissions
-$imSettings['access']['pages'] = array();
+$imSettings['access']['pages'] = array(
+	'9' => array('v3f4a1fj')
+);
 
 // PASSWORD CRYPT
 
