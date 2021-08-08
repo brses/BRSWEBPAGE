@@ -10,10 +10,10 @@ $imSettings['search']['general'] = array(
 		'3' => 'about-us.html',
 		'4' => 'our-works.html',
 		'5' => 'contacts.html',
-		'6' => 'utilities.html'
+		'6' => 'utilities.html',
+		'9' => 'login-forms.html'
 	),
 	'extendedScope' => array(
-		'9' => 'login-forms.php'
 	)
 );
 

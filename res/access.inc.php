@@ -7,7 +7,7 @@ $imSettings['access']['users'] = array(
 		'groups' => array('m4uwoqpp'),
 		'firstname' => 'B.R.S. Engineering',
 		'lastname' => 'Service',
-		'password' => '$2a$11$4uwRIypNH1rbRKxCaVm0NeLZpb0hogzBp29xzP8DpmQHlCl4n2sR2',
+		'password' => '$2a$11$lgcvTr7DxBvdCKaITgc5geKMekSB6enORjqkOIDmgXS4IFJhg5tBO',
 		'crypt_encoding' => 'csharp_bcrypt',
 		'db_stored' => false,
 		'page' => false
@@ -17,7 +17,7 @@ $imSettings['access']['users'] = array(
 		'groups' => array('wcsn1mxf'),
 		'firstname' => 'Manoj',
 		'lastname' => 'Tripathi',
-		'password' => '$2a$11$CEK1YiSvCAMmWfhqZ3j.5.K47ZRIsOR9zwvqMFVNEFuqRaowcP/5K',
+		'password' => '$2a$11$/n31P71fNGAmZFFrIwBVgeyL5Q4rSiWjqw9Zq/R6YWQHhtiIXWAOW',
 		'crypt_encoding' => 'csharp_bcrypt',
 		'db_stored' => false,
 		'page' => 'index.html'
@@ -28,9 +28,7 @@ $imSettings['access']['users'] = array(
 $imSettings['access']['admins'] = array('hf1z67cl');
 
 // Page/Users permissions
-$imSettings['access']['pages'] = array(
-	'9' => array('v3f4a1fj')
-);
+$imSettings['access']['pages'] = array();
 
 // PASSWORD CRYPT
 
