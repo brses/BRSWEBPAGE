@@ -11,7 +11,8 @@ $imSettings['search']['general'] = array(
 		'4' => 'our-works.html',
 		'5' => 'contacts.html',
 		'6' => 'utilities.html',
-		'9' => 'login-forms.html'
+		'9' => 'login-forms.html',
+		'10' => 'gallary.html'
 	),
 	'extendedScope' => array(
 	)
