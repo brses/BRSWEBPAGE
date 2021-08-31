@@ -12,7 +12,7 @@ $imSettings['search']['general'] = array(
 		'5' => 'contacts.html',
 		'6' => 'utilities.html',
 		'9' => 'login-forms.html',
-		'10' => 'gallary.html'
+		'10' => 'gallery.html'
 	),
 	'extendedScope' => array(
 	)

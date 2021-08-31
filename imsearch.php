@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_09/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637660235606991890" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637660312088008763" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_09/main.js"></script>
@@ -33,7 +33,7 @@
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('B.R.S. Engineering Service'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637660235606861334" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637660312087879164" type="image/png" />
 		<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'G-RDS8WE8GHM','auto');ga('send', 'pageview');</script>
 	</head>
 	<body>
@@ -78,11 +78,11 @@ Our Works		</a>
 Utilities		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/gallary.html">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/gallery.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="gallary.html">
-Gallary		</a>
+		<a class="label" href="gallery.html">
+Gallery		</a>
 </div>
 </div>
 	</li><li class="imMnMnLast imPage" data-link-paths=",/contacts.html">
@@ -107,7 +107,7 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
 	x5engine.boot.push(function () {
 		$('#imHeader_imObjectImage_06').addClass('imlazyloading').trigger('imLazyLoadingStart');
 		new x5engine.mediaObject({
-			'url': '211206165160216183098119144097158162211218192101164205221217219236152152163220160',
+			'url': '211206165160216183098119144097158162211218192158155211237212199226153152163220160',
 			'protect': true,
 			'load': function ( o ) {
 				$('#imHeader_imObjectImage_06_container').html( $(o.DOMObject()).css({ 'position': 'relative', 'left': 0, 'top': 0 }) );
@@ -202,11 +202,11 @@ Our Works		</a>
 Utilities		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/gallary.html">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/gallery.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="gallary.html">
-Gallary		</a>
+		<a class="label" href="gallery.html">
+Gallery		</a>
 </div>
 </div>
 	</li><li class="imMnMnLast imPage" data-link-paths=",/contacts.html">
@@ -251,48 +251,67 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						
 					</main>
 					<footer id="imFooter">
-						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >©2021 by B.R.S. Engineering Service</span></div></div><div id="imFooter_imObjectImage_03_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectImage_03"><div id="imFooter_imObjectImage_03_container"></div></div>
+						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >©2021 by B.R.S. Engineering Service</span></div></div><div id="imFooter_imTextObject_06_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_06">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_06_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div class="imTALeft"><span class="fs14lh1-5">Head Office:</span></div><div><div class="imTALeft"><span class="fs14lh1-5">Pokhara-30, K</span><span class="fs14lh1-5">hudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div><div class="imTALeft">Phone: 9846940514</div></div></div>
+		</div>
+	</div>
+
+</div>
+</div><div id="imFooter_imTextObject_07_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_07">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_07_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div class="imTALeft"><span class="fs14lh1-5">Branch Office:</span></div><div><div class="imTALeft"><span class="fs14lh1-5">Pokhara-25, Hemja,</span><span class="fs14lh1-5"> kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div><div class="imTALeft">Phone: 9815148304</div></div></div>
+		</div>
+	</div>
+
+</div>
+</div><div id="imFooter_imTextObject_08_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_08">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_08_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div class="imTALeft"><span class="fs14lh1-5">Branch Office:</span></div><div class="imTALeft"><span class="fs14lh1-5">Kathmandu-16, Balaju Height</span><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div><div><div class="imTALeft">Phone: 9843291702</div></div></div>
+		</div>
+	</div>
+
+</div>
+</div><div id="imFooter_imTextObject_09_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_09">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_09_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div class="imTACenter"><span class="fs14lh1-5">Email: brses@brses.com.np</span></div><div class="imTACenter">Head Office: +977061560126</div>
+		</div>
+	</div>
+
+</div>
+</div><div id="imFooter_imTextObject_10_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_10">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_10_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div class="imTACenter"><span class="fs14lh1-5">Contact Us:</span></div>
+		</div>
+	</div>
+
+</div>
+</div><div id="imFooter_imTextObject_11_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_11">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_11_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Head Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="imTACenter">Branch Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="imTARight">Branch Office:</span></span></div><div data-line-height="1.15" class="lh1-15"><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Pokhara-30, Khudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="imTACenter">Pokhara-25, Hemja,</span><span class="imTACenter"> </span><span class="imTACenter">kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="imTARight">Kathmandu-16, Balaju Height</span></span></div><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Phone: 9846940514 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="imTACenter">Phone: 9815148304 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="imTARight">Phone: 9843291702</span></span></div><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15"><br></span></div><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Email: brses@brses.com.np</span></div><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Head Office: +977061560126</span></div></div><div class="imTALeft"><div class="imTACenter"><br></div><div class="imTACenter"><br></div><div class="imTACenter"><br></div><div class="imTACenter"><span class="fs14lh1-5"><br></span></div><div><div class="imTARight"><br></div><div class="imTARight"><br></div><div class="imTARight"><br></div></div></div>
+		</div>
+	</div>
+
+</div>
+</div><div id="imFooter_imTextObject_12_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_12">
+	<div id="imFooter_imTextObject_12_tab0" class="grid-prop current-tab" style="opacity: 1; text-align: left; overflow: hidden;"><div data-index="0" class="text-tab-content grid-prop current-tab text-inner" style="opacity: 1; " ><div data-line-height="1.15"><span class="fs14lh1-5">Head Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office:</span></div><div data-line-height="1.15"><span class="fs14lh1-5">Pokhara-30, Khudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pokhara-25, Hemja, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kathmandu-16, Balaju Height</span></div><div data-line-height="1.15"><span class="fs14lh1-5">Phone: 9846940514 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9815148304 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9843291702</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: brses@brses.com.np</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: +977061560126</span></div><div class="imTACenter"><br></div></div></div>
 <script>
-	x5engine.boot.push(function () {
-		$('#imFooter_imObjectImage_03').addClass('imlazyloading').trigger('imLazyLoadingStart');
-		new x5engine.mediaObject({
-			'url': '211206165160216183098163201167096157220210',
-			'protect': true,
-			'load': function ( o ) {
-				$('#imFooter_imObjectImage_03_container').html( $(o.DOMObject()).css({ 'position': 'relative', 'left': 0, 'top': 0 }) );
-				$('#imFooter_imObjectImage_03').trigger('imLazyLoadingEnd');
-			}
-		});
-	});
+function loadimFooter_imTextObject_12_tab0() {
+	var box = $("#imFooter_imTextObject_12_tab0 .text-inner");
+	var data = box.data('imRollover');
+	if (data != null) { data.disable(); }
+	x5engine.imRollover({"id": "#imFooter_imTextObject_12_tab0 .text-inner", "movement": "CONTINUE", "direction": "RIGHT", "effect": "LINEAR", "height": 200, "time": 10, "autostart": true, "mouselock": true});
+}
+x5engine.boot.push(loadimFooter_imTextObject_12_tab0);
 </script>
-</div><div id="imFooter_imObjectImage_04_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectImage_04"><div id="imFooter_imObjectImage_04_container"></div></div>
-<script>
-	x5engine.boot.push(function () {
-		$('#imFooter_imObjectImage_04').addClass('imlazyloading').trigger('imLazyLoadingStart');
-		new x5engine.mediaObject({
-			'url': '211206165160216183098163201167145168211157206148154143222156205234153',
-			'protect': true,
-			'load': function ( o ) {
-				$('#imFooter_imObjectImage_04_container').html( $(o.DOMObject()).css({ 'position': 'relative', 'left': 0, 'top': 0 }) );
-				$('#imFooter_imObjectImage_04').trigger('imLazyLoadingEnd');
-			}
-		});
-	});
-</script>
-</div><div id="imFooter_imObjectImage_05_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectImage_05"><div id="imFooter_imObjectImage_05_container"></div></div>
-<script>
-	x5engine.boot.push(function () {
-		$('#imFooter_imObjectImage_05').addClass('imlazyloading').trigger('imLazyLoadingStart');
-		new x5engine.mediaObject({
-			'url': '211206165160216183098163201167145171230160208103171152231156205234153',
-			'protect': true,
-			'load': function ( o ) {
-				$('#imFooter_imObjectImage_05_container').html( $(o.DOMObject()).css({ 'position': 'relative', 'left': 0, 'top': 0 }) );
-				$('#imFooter_imObjectImage_05').trigger('imLazyLoadingEnd');
-			}
-		});
-	});
-</script>
+
+</div>
 </div></div>
 					</footer>
 				</div>
