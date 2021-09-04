@@ -22,18 +22,18 @@
 		<link rel="stylesheet" href="style/print.css?2021-2-5-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?2021-2-5-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2021-2-5-0" media="screen" />
-		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_09/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637660312088008763" media="screen,print" />
+		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_09/custom.css" media="screen, print" /><link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_10/custom.css" media="screen, print" /><link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_11/custom.css" media="screen, print" /><link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_12/custom.css" media="screen, print" /><link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_13/custom.css" media="screen, print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-2-5-0-637663981137205378" media="screen,print" />
 		<script src="res/jquery.js?2021-2-5-0"></script>
 		<script src="res/x5engine.js?2021-2-5-0" data-files-version="2021-2-5-0"></script>
-		<script src="pluginAppObj/imHeader_pluginAppObj_09/main.js"></script>
+		<script src="pluginAppObj/imHeader_pluginAppObj_09/main.js"></script><script src="pluginAppObj/imHeader_pluginAppObj_10/main.js"></script><script src="pluginAppObj/imHeader_pluginAppObj_11/main.js"></script><script src="pluginAppObj/imHeader_pluginAppObj_12/main.js"></script><script src="pluginAppObj/imHeader_pluginAppObj_13/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Your browser does not support the features necessary to display this website.','Your browser may not support the features necessary to display this website.','[1]Update your browser[/1] or [2]continue without updating[/2].','http://outdatedbrowser.com/'); };
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('B.R.S. Engineering Service'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2021-2-5-0-637660312087879164" type="image/png" />
+		<link rel="icon" href="favicon.png?2021-2-5-0-637663981137047576" type="image/png" />
 		<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'G-RDS8WE8GHM','auto');ga('send', 'pageview');</script>
 	</head>
 	<body>
@@ -107,7 +107,7 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
 	x5engine.boot.push(function () {
 		$('#imHeader_imObjectImage_06').addClass('imlazyloading').trigger('imLazyLoadingStart');
 		new x5engine.mediaObject({
-			'url': '211206165160216183098119144097158162211218192158155211237212199226153152163220160',
+			'url': '211206165160216183098119144097158162211218192148162150170161197175162152163220160',
 			'protect': true,
 			'load': function ( o ) {
 				$('#imHeader_imObjectImage_06_container').html( $(o.DOMObject()).css({ 'position': 'relative', 'left': 0, 'top': 0 }) );
@@ -116,7 +116,7 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
 		});
 	});
 </script>
-</div><div id="imHeader_imHTMLObject_07_wrapper" class="template-object-wrapper"><div id="imHeader_imHTMLObject_07" class="imHTMLObject" style="text-align: center; width: 100%; overflow: hidden;"><html>
+</div><div id="imHeader_imHTMLObject_07_wrapper" class="template-object-wrapper"><div id="imHeader_imHTMLObject_07" class="imHTMLObject" style="text-align: center; height: 50px; width: 50%; overflow: auto;"><html>
     
     <head>
         
@@ -162,6 +162,46 @@ $(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSepara
             </div>
                 <script>
                     socialicons_imHeader_pluginAppObj_09();
+                </script>
+        </div></div><div id="imHeader_pluginAppObj_10_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imHeader_pluginAppObj_10">
+            <div id="soc_imHeader_pluginAppObj_10">
+                <div class="wrapper horizontal flat none">
+                	<div class='social-icon flat'><a href='https://www.facebook.com/B.R.S.EngineeringService' target='_blank'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div>
+                </div>
+
+            </div>
+                <script>
+                    socialicons_imHeader_pluginAppObj_10();
+                </script>
+        </div></div><div id="imHeader_pluginAppObj_11_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imHeader_pluginAppObj_11">
+            <div id="soc_imHeader_pluginAppObj_11">
+                <div class="wrapper horizontal flat none">
+                	<div class='social-icon flat'><a href='https://www.facebook.com/B.R.S.EngineeringService' target='_blank'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div>
+                </div>
+
+            </div>
+                <script>
+                    socialicons_imHeader_pluginAppObj_11();
+                </script>
+        </div></div><div id="imHeader_pluginAppObj_12_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imHeader_pluginAppObj_12">
+            <div id="soc_imHeader_pluginAppObj_12">
+                <div class="wrapper horizontal flat none">
+                	<div class='social-icon flat'><a href='https://www.facebook.com/B.R.S.EngineeringService' target='_blank'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div>
+                </div>
+
+            </div>
+                <script>
+                    socialicons_imHeader_pluginAppObj_12();
+                </script>
+        </div></div><div id="imHeader_pluginAppObj_13_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imHeader_pluginAppObj_13">
+            <div id="soc_imHeader_pluginAppObj_13">
+                <div class="wrapper horizontal flat none">
+                	<div class='social-icon flat'><a href='https://www.facebook.com/B.R.S.EngineeringService' target='_blank'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div>
+                </div>
+
+            </div>
+                <script>
+                    socialicons_imHeader_pluginAppObj_13();
                 </script>
         </div></div></div>
 					</header>
@@ -251,64 +291,68 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						
 					</main>
 					<footer id="imFooter">
-						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >©2021 by B.R.S. Engineering Service</span></div></div><div id="imFooter_imTextObject_06_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_06">
-	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_06_tab0" style="opacity: 1; ">
-		<div class="text-inner">
-			<div class="imTALeft"><span class="fs14lh1-5">Head Office:</span></div><div><div class="imTALeft"><span class="fs14lh1-5">Pokhara-30, K</span><span class="fs14lh1-5">hudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div><div class="imTALeft">Phone: 9846940514</div></div></div>
-		</div>
-	</div>
-
-</div>
-</div><div id="imFooter_imTextObject_07_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_07">
-	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_07_tab0" style="opacity: 1; ">
-		<div class="text-inner">
-			<div class="imTALeft"><span class="fs14lh1-5">Branch Office:</span></div><div><div class="imTALeft"><span class="fs14lh1-5">Pokhara-25, Hemja,</span><span class="fs14lh1-5"> kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div><div class="imTALeft">Phone: 9815148304</div></div></div>
-		</div>
-	</div>
-
-</div>
-</div><div id="imFooter_imTextObject_08_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_08">
-	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_08_tab0" style="opacity: 1; ">
-		<div class="text-inner">
-			<div class="imTALeft"><span class="fs14lh1-5">Branch Office:</span></div><div class="imTALeft"><span class="fs14lh1-5">Kathmandu-16, Balaju Height</span><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div><div><div class="imTALeft">Phone: 9843291702</div></div></div>
-		</div>
-	</div>
-
-</div>
-</div><div id="imFooter_imTextObject_09_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_09">
-	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_09_tab0" style="opacity: 1; ">
-		<div class="text-inner">
-			<div class="imTACenter"><span class="fs14lh1-5">Email: brses@brses.com.np</span></div><div class="imTACenter">Head Office: +977061560126</div>
-		</div>
-	</div>
-
-</div>
-</div><div id="imFooter_imTextObject_10_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_10">
-	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_10_tab0" style="opacity: 1; ">
-		<div class="text-inner">
-			<div class="imTACenter"><span class="fs14lh1-5">Contact Us:</span></div>
-		</div>
-	</div>
-
-</div>
-</div><div id="imFooter_imTextObject_11_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_11">
-	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_11_tab0" style="opacity: 1; ">
-		<div class="text-inner">
-			<div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Head Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="imTACenter">Branch Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="imTARight">Branch Office:</span></span></div><div data-line-height="1.15" class="lh1-15"><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Pokhara-30, Khudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="imTACenter">Pokhara-25, Hemja,</span><span class="imTACenter"> </span><span class="imTACenter">kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="imTARight">Kathmandu-16, Balaju Height</span></span></div><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Phone: 9846940514 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="imTACenter">Phone: 9815148304 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="imTARight">Phone: 9843291702</span></span></div><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15"><br></span></div><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Email: brses@brses.com.np</span></div><div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs8lh1-15">Head Office: +977061560126</span></div></div><div class="imTALeft"><div class="imTACenter"><br></div><div class="imTACenter"><br></div><div class="imTACenter"><br></div><div class="imTACenter"><span class="fs14lh1-5"><br></span></div><div><div class="imTARight"><br></div><div class="imTARight"><br></div><div class="imTARight"><br></div></div></div>
-		</div>
-	</div>
-
-</div>
-</div><div id="imFooter_imTextObject_12_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_12">
-	<div id="imFooter_imTextObject_12_tab0" class="grid-prop current-tab" style="opacity: 1; text-align: left; overflow: hidden;"><div data-index="0" class="text-tab-content grid-prop current-tab text-inner" style="opacity: 1; " ><div data-line-height="1.15"><span class="fs14lh1-5">Head Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office:</span></div><div data-line-height="1.15"><span class="fs14lh1-5">Pokhara-30, Khudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pokhara-25, Hemja, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kathmandu-16, Balaju Height</span></div><div data-line-height="1.15"><span class="fs14lh1-5">Phone: 9846940514 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9815148304 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9843291702</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: brses@brses.com.np</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: +977061560126</span></div><div class="imTACenter"><br></div></div></div>
+						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >©2021 by B.R.S. Engineering Service</span></div></div><div id="imFooter_imTextObject_12_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_12">
+	<div id="imFooter_imTextObject_12_tab0" class="grid-prop current-tab" style="opacity: 1; text-align: left; overflow: hidden;"><div data-index="0" class="text-tab-content grid-prop current-tab text-inner" style="opacity: 1; " ><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office:</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;Pokhara-30, Khudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pokhara-25, Hemja, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kathmandu-16, Balaju Height</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;Phone: 9846940514 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9815148304 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9843291702</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="imTACenter fs14lh1-5">Email: brses@brses.com.np</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: +977061560126</span></div><div class="imTACenter"><br></div></div></div>
 <script>
 function loadimFooter_imTextObject_12_tab0() {
 	var box = $("#imFooter_imTextObject_12_tab0 .text-inner");
 	var data = box.data('imRollover');
 	if (data != null) { data.disable(); }
-	x5engine.imRollover({"id": "#imFooter_imTextObject_12_tab0 .text-inner", "movement": "CONTINUE", "direction": "RIGHT", "effect": "LINEAR", "height": 200, "time": 10, "autostart": true, "mouselock": true});
+	x5engine.imRollover({"id": "#imFooter_imTextObject_12_tab0 .text-inner", "movement": "CONTINUE", "direction": "RIGHT", "effect": "LINEAR", "height": 200, "time": 25, "autostart": true, "mouselock": true});
 }
 x5engine.boot.push(loadimFooter_imTextObject_12_tab0);
+</script>
+
+</div>
+</div><div id="imFooter_imTextObject_13_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_13">
+	<div id="imFooter_imTextObject_13_tab0" class="grid-prop current-tab" style="opacity: 1; text-align: left; overflow: hidden;"><div data-index="0" class="text-tab-content grid-prop current-tab text-inner" style="opacity: 1; " ><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office:</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;Pokhara-30, Khudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pokhara-25, Hemja, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kathmandu-16, Balaju Height</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;Phone: 9846940514 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9815148304 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9843291702</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: brses@brses.com.np</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: +977061560126</span></div><div class="imTACenter"><br></div></div></div>
+<script>
+function loadimFooter_imTextObject_13_tab0() {
+	var box = $("#imFooter_imTextObject_13_tab0 .text-inner");
+	var data = box.data('imRollover');
+	if (data != null) { data.disable(); }
+	x5engine.imRollover({"id": "#imFooter_imTextObject_13_tab0 .text-inner", "movement": "CONTINUE", "direction": "RIGHT", "effect": "LINEAR", "height": 200, "time": 20, "autostart": true, "mouselock": true});
+}
+x5engine.boot.push(loadimFooter_imTextObject_13_tab0);
+</script>
+
+</div>
+</div><div id="imFooter_imTextObject_14_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_14">
+	<div id="imFooter_imTextObject_14_tab0" class="grid-prop current-tab" style="opacity: 1; text-align: left; overflow: hidden;"><div data-index="0" class="text-tab-content grid-prop current-tab text-inner" style="opacity: 1; " ><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office:</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;Pokhara-30, Khudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pokhara-25, Hemja, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kathmandu-16, Balaju Height</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;Phone: 9846940514 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9815148304 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9843291702</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: brses@brses.com.np</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: +977061560126</span></div><div class="imTACenter"><br></div></div></div>
+<script>
+function loadimFooter_imTextObject_14_tab0() {
+	var box = $("#imFooter_imTextObject_14_tab0 .text-inner");
+	var data = box.data('imRollover');
+	if (data != null) { data.disable(); }
+	x5engine.imRollover({"id": "#imFooter_imTextObject_14_tab0 .text-inner", "movement": "CONTINUE", "direction": "RIGHT", "effect": "LINEAR", "height": 200, "time": 20, "autostart": true, "mouselock": true});
+}
+x5engine.boot.push(loadimFooter_imTextObject_14_tab0);
+</script>
+
+</div>
+</div><div id="imFooter_imTextObject_15_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_15">
+	<div id="imFooter_imTextObject_15_tab0" class="grid-prop current-tab" style="opacity: 1; text-align: left; overflow: hidden;"><div data-index="0" class="text-tab-content grid-prop current-tab text-inner" style="opacity: 1; " ><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office:</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;Pokhara-30, Khudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pokhara-25, Hemja, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kathmandu-16, Balaju Height</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;Phone: 9846940514 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9815148304 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9843291702</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: brses@brses.com.np</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: +977061560126</span></div><div class="imTACenter"><br></div></div></div>
+<script>
+function loadimFooter_imTextObject_15_tab0() {
+	var box = $("#imFooter_imTextObject_15_tab0 .text-inner");
+	var data = box.data('imRollover');
+	if (data != null) { data.disable(); }
+	x5engine.imRollover({"id": "#imFooter_imTextObject_15_tab0 .text-inner", "movement": "CONTINUE", "direction": "RIGHT", "effect": "LINEAR", "height": 200, "time": 20, "autostart": true, "mouselock": true});
+}
+x5engine.boot.push(loadimFooter_imTextObject_15_tab0);
+</script>
+
+</div>
+</div><div id="imFooter_imTextObject_16_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_16">
+	<div id="imFooter_imTextObject_16_tab0" class="grid-prop current-tab" style="opacity: 1; text-align: left; overflow: hidden;"><div data-index="0" class="text-tab-content grid-prop current-tab text-inner" style="opacity: 1; " ><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch Office:</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;Pokhara-30, Khudi, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pokhara-25, Hemja, kaski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kathmandu-16, Balaju Height</span></div><div data-line-height="1.15"><span class="fs14lh1-5"> &nbsp;&nbsp;&nbsp;Phone: 9846940514 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9815148304 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 9843291702</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: brses@brses.com.np</span></div><div data-line-height="1.15" class="imTALeft"><span class="imTACenter fs14lh1-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head Office: +977061560126</span></div><div class="imTACenter"><br></div></div></div>
+<script>
+function loadimFooter_imTextObject_16_tab0() {
+	var box = $("#imFooter_imTextObject_16_tab0 .text-inner");
+	var data = box.data('imRollover');
+	if (data != null) { data.disable(); }
+	x5engine.imRollover({"id": "#imFooter_imTextObject_16_tab0 .text-inner", "movement": "CONTINUE", "direction": "RIGHT", "effect": "LINEAR", "height": 200, "time": 20, "autostart": true, "mouselock": true});
+}
+x5engine.boot.push(loadimFooter_imTextObject_16_tab0);
 </script>
 
 </div>
